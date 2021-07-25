@@ -1,6 +1,7 @@
 import React from "react";
 
-const Employee = ({ name, lastname, age }) => {
+const Employee = (props) => {
+  const { name, lastname, age } = props;
   return (
     <h1>
       this is an {name} {lastname} age is {age}
