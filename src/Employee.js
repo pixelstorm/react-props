@@ -1,10 +1,10 @@
 import React from "react";
 
 const Employee = (props) => {
-  const { name, lastname } = props;
+  const { name, lastname, age } = props;
   return (
     <h1>
-      this is an {name} {lastname}
+      this is an {name} {lastname} age is {age}
     </h1>
   );
 };
